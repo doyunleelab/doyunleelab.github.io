@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:doyunleelab.wordpress.com)",
+      "Bash(ruby --version)",
+      "Bash(gem install *)",
+      "Bash(rbenv exec *)",
+      "Bash(curl -s http://localhost:4000)",
+      "Bash(mkdir -p \"/Users/leedoyun/doyunleelab Dropbox/LEE DOYUN/LabManagement/doyunleelab_website/.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(pkill -f \"jekyll serve\")",
+      "Bash(gh auth *)"
+    ]
+  }
+}

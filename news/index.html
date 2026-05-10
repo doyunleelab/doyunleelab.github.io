@@ -1,0 +1,37 @@
+---
+layout: page
+title: News
+subtitle: Updates from the Doyun Lee Lab
+---
+
+<div class="row g-4">
+  {% for post in site.posts %}
+  <div class="col-md-6 col-lg-4">
+    <div class="news-card h-100">
+      {% if post.thumbnail %}
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.thumbnail | relative_url }}" class="news-card-thumbnail" alt="{{ post.title }}">
+      </a>
+      {% endif %}
+      <div class="news-card-body">
+        <div class="news-date">
+          <i class="bi bi-calendar3"></i>
+          {{ post.date | date: "%B %-d, %Y" }}
+        </div>
+        {% if post.categories %}
+        <div class="mb-2">
+          {% for cat in post.categories %}
+          <span class="badge bg-primary-subtle text-primary">{{ cat }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+        <p class="news-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary mt-2">
+          Read more <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

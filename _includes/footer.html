@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <h5 class="footer-heading">Doyun Lee Lab</h5>
+        <p class="footer-desc">{{ site.description }}</p>
+        <p class="footer-affil">{{ site.affiliation.full }}</p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="footer-heading">Contact</h5>
+        <address class="footer-address">
+          <p><i class="bi bi-geo-alt-fill me-2"></i>{{ site.affiliation.address }}</p>
+          <p><i class="bi bi-envelope-fill me-2"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links list-unstyled">
+          {% for link in site.nav_links %}
+          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-bottom text-center">
+      <p>&copy; {{ "now" | date: "%Y" }} Doyun Lee Lab at IBS. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

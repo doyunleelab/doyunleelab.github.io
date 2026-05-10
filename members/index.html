@@ -1,0 +1,94 @@
+---
+layout: page
+title: Members
+subtitle: The people behind the science
+---
+
+<!-- ── Principal Investigator ─────────────────────────────────── -->
+<h3 class="mb-4">Principal Investigator</h3>
+<div class="row mb-5">
+  <div class="col-md-6 col-lg-4">
+    <div class="member-card">
+      <div class="member-photo-wrap">
+        {% assign pi = site.data.members.current[0] %}
+        {% if pi.photo and pi.photo != "" %}
+        <img src="{{ '/assets/images/members/' | append: pi.photo | relative_url }}"
+             alt="{{ pi.name }}"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="member-photo-placeholder" style="display:none;"><i class="bi bi-person-fill"></i></div>
+        {% else %}
+        <div class="member-photo-placeholder"><i class="bi bi-person-fill"></i></div>
+        {% endif %}
+      </div>
+      <div class="member-card-body">
+        <p class="member-name">{{ pi.name }}</p>
+        <p class="member-role">{{ pi.role }}</p>
+        <p class="member-info">{{ pi.title }}<br>{{ pi.affiliation }}</p>
+        {% for edu in pi.education %}
+        <p class="member-info small text-muted">{{ edu }}</p>
+        {% endfor %}
+        <div class="member-links">
+          <a href="mailto:{{ pi.email }}" title="Email"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Current Members ────────────────────────────────────────── -->
+<h3 class="mb-4">Current Members</h3>
+<div class="row g-4 mb-5">
+  {% for member in site.data.members.current offset:1 %}
+  <div class="col-md-6 col-lg-3">
+    <div class="member-card">
+      <div class="member-photo-wrap">
+        {% if member.photo and member.photo != "" %}
+        <img src="{{ '/assets/images/members/' | append: member.photo | relative_url }}"
+             alt="{{ member.name }}"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="member-photo-placeholder" style="display:none;"><i class="bi bi-person-fill"></i></div>
+        {% else %}
+        <div class="member-photo-placeholder"><i class="bi bi-person-fill"></i></div>
+        {% endif %}
+      </div>
+      <div class="member-card-body">
+        <p class="member-name">{{ member.name }}</p>
+        <p class="member-role">{{ member.role }}</p>
+        {% for edu in member.education %}
+        <p class="member-info small">{{ edu }}</p>
+        {% endfor %}
+        {% if member.affiliation %}
+        <p class="member-info small text-muted">{{ member.affiliation }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ── Alumni ─────────────────────────────────────────────────── -->
+<h3 class="mb-4">Alumni</h3>
+<div class="alumni-section">
+  <div class="table-responsive">
+    <table class="table table-hover align-middle">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Period</th>
+          <th>Current Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for alum in site.data.members.alumni %}
+        <tr>
+          <td class="fw-semibold">{{ alum.name }}</td>
+          <td>{{ alum.role }}</td>
+          <td class="text-muted">{{ alum.period }}</td>
+          <td>{{ alum.current_position }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

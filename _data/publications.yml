@@ -1,0 +1,242 @@
+# Publications — Doyun Lee Lab (updated from CV, April 2026)
+# * = corresponding author  † or # = co-first author
+# **Lee D** renders as bold on the website via markdownify
+
+- year: 2026
+  entries:
+    - title: "Hierarchical summary statistics encoding across primary visual and posterior parietal cortices"
+      authors: "Lee Y-B, Jung G, James O, **Lee D**\\*, Kim Y\\*"
+      journal: "Advanced Science"
+      volume: "e12369"
+      pages: ""
+      doi: ""
+      pdf: ""
+
+- year: 2025
+  entries:
+    - title: "Hippocampal-cortical interactions in the consolidation of social memory"
+      authors: "Park G, Kim MS, Lee Y-B, Shin S, Kim SJ, **Lee D**\\*, Lee Y-S\\*"
+      journal: "Nature Communications"
+      volume: "16"
+      pages: "8430"
+      doi: "10.1038/s41467-025-08430-x"
+      pdf: "Park(NatComm25).pdf"
+
+    - title: "Head-Anchored Patch-Clamp Recordings in Freely Moving Animals"
+      authors: "Lee AK, Epsztein J, **Lee D**, Brecht M"
+      journal: "The Handbook of Electrophysiology: A Practical Guide for Neurophysiologists"
+      volume: ""
+      pages: ""
+      doi: "10.1142/14331"
+      pdf: ""
+      note: "Book Chapter"
+
+- year: 2024
+  entries:
+    - title: "Long-lasting Forms of Plasticity through Patterned Ultrasound-induced Brainwave Entrainment"
+      authors: "Kim H-J†, Phan TT†, Lee K, Kim JS, Lee S-Y, Lee JM, Do J, **Lee D**, Kim S-P, Lee KP, Park J, Lee CJ, Park JM"
+      journal: "Science Advances"
+      volume: "10(8)"
+      pages: "eadk3198"
+      doi: "10.1126/sciadv.adk3198"
+      pdf: "Kim(SciAdv24).pdf"
+
+- year: 2023
+  entries:
+    - title: "Dynamic and stable hippocampal representations of social identity and reward expectation support associative social memory in male mice"
+      authors: "Kong E#, Lee K#, Do J, Kim P\\*, **Lee D**\\*"
+      journal: "Nature Communications"
+      volume: "14(1)"
+      pages: "2597"
+      doi: "10.1038/s41467-023-38275-z"
+      pdf: "Kong(NComm23).pdf"
+
+    - title: "Reward learning improves social signal processing in autism model mice"
+      authors: "Kim J, Jung MW\\*, **Lee D**\\*"
+      journal: "Cell Reports"
+      volume: "42"
+      pages: "113228"
+      doi: "10.1016/j.celrep.2023.113228"
+      pdf: "Kim(CellRep23).pdf"
+
+    - title: "Automating licking bias correction in a two-choice delayed match-to-sample task to accelerate learning"
+      authors: "Do J, Jung MW\\*, **Lee D**\\*"
+      journal: "Scientific Reports"
+      volume: "13(1)"
+      pages: "22768"
+      doi: "10.1038/s41598-023-49680-3"
+      pdf: "Do(SciRep23).pdf"
+
+    - title: "A quantitative analysis of spontaneous alternation behaviors on a Y-maze reveals adverse effects of acute social isolation on spatial working memory"
+      authors: "Kim J, Kang H, Lee Y-B, Lee B, **Lee D**\\*"
+      journal: "Scientific Reports"
+      volume: "13(1)"
+      pages: "14722"
+      doi: "10.1038/s41598-023-41900-0"
+      pdf: "Kim(SciRep23).pdf"
+
+- year: 2020
+  entries:
+    - title: "Transient effect of mossy fiber stimulation on spatial firing of CA3 neurons in familiar and novel environments"
+      authors: "Lee J, Bae C, **Lee D**\\*, Jung MW\\*"
+      journal: "Hippocampus"
+      volume: "30(7)"
+      pages: "693–702"
+      doi: "10.1002/hipo.23185"
+      pdf: "Lee(Hippocampus20).pdf"
+
+- year: 2019
+  entries:
+    - title: "Transient effect of mossy fiber stimulation on spatial firing of CA3 neurons"
+      authors: "Lee J, Yun M, Cho E, Lee JW, **Lee D**\\*, Jung MW\\*"
+      journal: "Hippocampus"
+      volume: "29(7)"
+      pages: "639–651"
+      doi: "10.1002/hipo.23054"
+      pdf: "Lee(Hippocampus19).pdf"
+
+- year: 2017
+  entries:
+    - title: "Whole-cell recording in the awake brain"
+      authors: "**Lee D**\\*, Lee AK\\*"
+      journal: "Cold Spring Harbor Protocols"
+      volume: ""
+      pages: ""
+      doi: "10.1101/pdb.top087304"
+      pdf: "Lee(CSHP17a).pdf"
+
+    - title: "In vivo patch-clamp recording in awake head-fixed rodents"
+      authors: "**Lee D**\\*, Lee AK\\*"
+      journal: "Cold Spring Harbor Protocols"
+      volume: ""
+      pages: ""
+      doi: "10.1101/pdb.prot095802"
+      pdf: "Lee(CSHP17b).pdf"
+
+    - title: "Efficient method for whole-cell recording in freely moving rodents using UV-cured collar-based pipette stabilization"
+      authors: "**Lee D**\\*, Lee AK\\*"
+      journal: "Cold Spring Harbor Protocols"
+      volume: ""
+      pages: ""
+      doi: "10.1101/pdb.prot095810"
+      pdf: "Lee(CSHP17c).pdf"
+
+- year: 2015
+  entries:
+    - title: "Co-stimulation of AMPA and Metabotropic Glutamate Receptors Underlies PLC Activation by Glutamate in Hippocampus"
+      authors: "Kim HH, Lee KH, **Lee D**, Han YE, Lee SH, Sohn JW, Ho WK"
+      journal: "Journal of Neuroscience"
+      volume: "35"
+      pages: "6401–6412"
+      doi: "10.1523/JNEUROSCI.4208-14.2015"
+      pdf: ""
+
+- year: 2014
+  entries:
+    - title: "Anesthetized- and awake-patched whole-cell recordings in freely moving rats using UV-cured collar-based electrode stabilization"
+      authors: "**Lee D**\\*, Shtengel G, Osborne JE, Lee AK\\*"
+      journal: "Nature Protocols"
+      volume: "9"
+      pages: "2784–2795"
+      doi: "10.1038/nprot.2014.190"
+      pdf: ""
+
+- year: 2012
+  entries:
+    - title: "Hippocampal Place Fields Emerge upon Single-Cell Manipulation of Excitability During Behavior"
+      authors: "**Lee D**\\*, Lin B, Lee AK\\*"
+      journal: "Science"
+      volume: "337(6096)"
+      pages: "849–853"
+      doi: "10.1126/science.1221489"
+      pdf: ""
+      note: "Recommended 3× as \"Exceptional\" by Faculty of 1000; Featured in Science Illustrated"
+
+    - title: "GABA mediates the network activity-dependent facilitation of axonal outgrowth from the newborn granule cells in the early postnatal rat hippocampus"
+      authors: "Lee H, **Lee D**, Park CH, Ho WK, Lee SH"
+      journal: "European Journal of Neuroscience"
+      volume: "36(6)"
+      pages: "2743–2752"
+      doi: "10.1111/j.1460-9568.2012.08198.x"
+      pdf: ""
+
+    - title: "KIF21A-mediated axonal transport and selective endocytosis underlie the polarized targeting of NCKX2"
+      authors: "Lee KH, Lee JS, **Lee D**, Seog DH, Lytton J, Ho WK, Lee SH"
+      journal: "Journal of Neuroscience"
+      volume: "32(12)"
+      pages: "4102–4117"
+      doi: "10.1523/JNEUROSCI.6331-11.2012"
+      pdf: ""
+
+- year: 2011
+  entries:
+    - title: "Cyclic ADP ribose-dependent Ca²⁺ release by group I metabotropic glutamate receptors in acutely dissociated rat hippocampal neurons"
+      authors: "Sohn JW, Yu WJ, **Lee D**, Shin HS, Lee SH, Ho WK"
+      journal: "PLoS ONE"
+      volume: "6(10)"
+      pages: "e26625"
+      doi: "10.1371/journal.pone.0026625"
+      pdf: ""
+
+- year: 2007
+  entries:
+    - title: "Target cell-specific involvement of presynaptic mitochondria in post-tetanic potentiation at hippocampal mossy fiber synapses"
+      authors: "**Lee D**, Lee KH, Ho WK, Lee SH"
+      journal: "Journal of Neuroscience"
+      volume: "27(50)"
+      pages: "13603–13613"
+      doi: "10.1523/JNEUROSCI.3985-07.2007"
+      pdf: ""
+      note: "Highlighted in \"This Week in The Journal\""
+
+    - title: "Receptor-specific inhibition of GABA_B-activated K⁺ currents by muscarinic and metabotropic glutamate receptors in immature rat hippocampus"
+      authors: "Sohn JW, **Lee D**, Cho H, Shin HS, Lim W, Lee SH, Ho WK"
+      journal: "Journal of Physiology"
+      volume: "580(2)"
+      pages: "411–422"
+      doi: "10.1113/jphysiol.2006.123752"
+      pdf: ""
+
+    - title: "Na⁺/Ca²⁺ exchange and Ca²⁺ homeostasis in axon terminals of mammalian central neurons"
+      authors: "Lee SH, Kim MH, Lee JY, Lee SH, **Lee D**, Park KH, Ho WK"
+      journal: "Annals of the New York Academy of Sciences"
+      volume: "1099"
+      pages: "396–412"
+      doi: "10.1196/annals.1387.015"
+      pdf: ""
+
+- year: 2005
+  entries:
+    - title: "Low mobility of phosphatidylinositol 4,5-bisphosphate underlies receptor specificity of Gq-mediated ion channel regulation in atrial myocytes"
+      authors: "Cho H, Kim YA, Yoon JY, **Lee D**, Kim JH, Lee SH, Ho WK"
+      journal: "PNAS"
+      volume: "102(42)"
+      pages: "15241–15246"
+      doi: "10.1073/pnas.0503831102"
+      pdf: ""
+
+    - title: "Receptor-induced depletion of phosphatidylinositol 4,5-bisphosphate inhibits inwardly rectifying K⁺ channels in a receptor-specific manner"
+      authors: "Cho H, **Lee D**, Lee SH, Ho WK"
+      journal: "PNAS"
+      volume: "102(12)"
+      pages: "4643–4648"
+      doi: "10.1073/pnas.0408844102"
+      pdf: ""
+
+    - title: "Acetylcholine Induces Hyperpolarization Mediated by Activation of K(Ca) Channels in Cultured Chick Myoblasts"
+      authors: "**Lee D**, Han J, Park JY"
+      journal: "Korean Journal of Physiology and Pharmacology"
+      volume: "9(1)"
+      pages: "37–44"
+      doi: ""
+      pdf: ""
+
+- year: 2002
+  entries:
+    - title: "Hyperpolarization, but not depolarization, increases intracellular Ca²⁺ level in cultured chick myoblasts"
+      authors: "Park JY, **Lee D**, Maeng JU, Koh DS, Kim K"
+      journal: "Biochemical and Biophysical Research Communications"
+      volume: "290(4)"
+      pages: "1176–1182"
+      doi: "10.1006/bbrc.2002.6349"
+      pdf: ""

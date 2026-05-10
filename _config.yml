@@ -1,0 +1,48 @@
+title: "Doyun Lee Lab at IBS"
+email: leedoyun@ibs.re.kr
+description: "We study the neural mechanisms underlying social cognition and perception."
+baseurl: ""
+url: "https://doyunleelab.github.io"
+
+author:
+  name: Doyun Lee
+  email: leedoyun@ibs.re.kr
+
+affiliation:
+  short: Center for Memory and Glioscience, IBS
+  full: Center for Memory and Glioscience, Institute for Basic Science (IBS)
+  address: "55 Expo-ro, Yuseong-gu, Daejeon, Korea 34126"
+  address_kr: "34126, 대전광역시 유성구 엑스포로 55, 기초과학연구원"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+nav_links:
+  - title: About
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Members
+    url: /members/
+  - title: Publications
+    url: /publications/
+  - title: News
+    url: /news/
+  - title: Positions
+    url: /positions/
+  - title: Contact
+    url: /contact/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md

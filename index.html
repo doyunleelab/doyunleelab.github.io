@@ -1,0 +1,180 @@
+---
+layout: default
+title: Home
+---
+
+<!-- ── Hero Section ──────────────────────────────────────────────── -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7 hero-content">
+        <h1 class="hero-title">
+          Doyun Lee Lab<br>
+          <span class="highlight">at IBS</span>
+        </h1>
+        <p class="hero-subtitle">
+          We study how the brain encodes social information —
+          from individual recognition to social motivation —
+          using large-scale neural recordings and behavioral paradigms in mice.
+        </p>
+        <div class="hero-badges">
+          <span class="hero-badge"><i class="bi bi-building me-1"></i>Center for Cognition and Sociality</span>
+          <span class="hero-badge"><i class="bi bi-geo-alt me-1"></i>Institute for Basic Science (IBS)</span>
+          <span class="hero-badge"><i class="bi bi-pin-map me-1"></i>Daejeon, Korea</span>
+        </div>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="{{ '/research/' | relative_url }}" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-flask me-2"></i>Our Research
+          </a>
+          <a href="{{ '/positions/' | relative_url }}" class="btn btn-outline-light btn-lg px-4">
+            <i class="bi bi-person-plus me-2"></i>Join Us
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+        <div class="hero-stats mt-4">
+          <div>
+            <span class="hero-stat-num">2015</span>
+            <span class="hero-stat-label">Lab Founded</span>
+          </div>
+          <div>
+            <span class="hero-stat-num">11+</span>
+            <span class="hero-stat-label">Publications</span>
+          </div>
+          <div>
+            <span class="hero-stat-num">4</span>
+            <span class="hero-stat-label">Research Areas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Research Highlights ───────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <h2 class="section-title">Research Focus</h2>
+        <p class="section-lead">
+          We combine two-photon imaging, Neuropixels recordings, and
+          behavioral paradigms to understand the neural basis of social cognition.
+        </p>
+      </div>
+      <div class="col-lg-6 d-flex align-items-end justify-content-lg-end">
+        <a href="{{ '/research/' | relative_url }}" class="btn btn-outline-primary">
+          View all research <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="research-card fade-in">
+          <div class="research-icon"><i class="bi bi-people-fill"></i></div>
+          <h4>Individual Recognition</h4>
+          <p>How do mice recognize individuals as unique identities within social groups?</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="research-card fade-in">
+          <div class="research-icon"><i class="bi bi-heart-pulse-fill"></i></div>
+          <h4>Social Motivation</h4>
+          <p>Reward learning in social information processing and its link to autism spectrum disorder.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="research-card fade-in">
+          <div class="research-icon"><i class="bi bi-diagram-3-fill"></i></div>
+          <h4>Brain-Wide Computation</h4>
+          <p>Simultaneous multi-region recordings to reveal distributed social information processing.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="research-card fade-in">
+          <div class="research-icon"><i class="bi bi-eye-fill"></i></div>
+          <h4>Visual Perception</h4>
+          <p>How the primary visual cortex encodes statistical features of complex visual stimuli.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Recent News ───────────────────────────────────────────────── -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <h2 class="section-title">Recent News</h2>
+        <p class="section-lead">Updates from the lab.</p>
+      </div>
+      <div class="col-lg-6 d-flex align-items-end justify-content-lg-end">
+        <a href="{{ '/news/' | relative_url }}" class="btn btn-outline-primary">
+          All news <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row g-4">
+      {% for post in site.posts limit:3 %}
+      <div class="col-md-4">
+        <div class="news-card">
+          <div class="news-card-body">
+            <div class="news-date">
+              <i class="bi bi-calendar3"></i>
+              {{ post.date | date: "%B %-d, %Y" }}
+            </div>
+            <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+            <p class="news-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ── Lab Affiliation ───────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <h2 class="section-title">Our Lab</h2>
+        <p class="mt-4 mb-3">
+          We are an independent research group at the
+          <strong>Center for Cognition and Sociality</strong>,
+          <strong>Institute for Basic Science (IBS)</strong>,
+          located in Daejeon, Korea.
+        </p>
+        <p class="text-muted mb-4">
+          Established in June 2015, our lab has developed cutting-edge techniques
+          including freely moving whole-cell recordings and large-scale population
+          imaging to probe the neural basis of social behavior.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">About the Lab</a>
+          <a href="{{ '/members/' | relative_url }}" class="btn btn-outline-primary">Meet the Team</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="pi-card">
+          <div class="pi-photo">
+            <img src="{{ '/assets/images/members/picture_lee.jpg' | relative_url }}"
+                 alt="Doyun Lee"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+            <div class="member-photo-placeholder" style="display:none; width:100%; height:100%;">
+              <i class="bi bi-person-fill"></i>
+            </div>
+          </div>
+          <p class="pi-name">Doyun Lee, PhD</p>
+          <p class="pi-title">Senior Research Fellow<br>Center for Cognition and Sociality, IBS</p>
+          <p class="pi-bio">
+            Dr. Lee received her PhD in Physiology from Seoul National University (2007)
+            and established the lab at IBS in 2015. Her work focuses on the neural
+            mechanisms of social recognition and social motivation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

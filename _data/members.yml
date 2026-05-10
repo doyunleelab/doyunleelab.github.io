@@ -1,0 +1,77 @@
+# ── Current Members ───────────────────────────────────────────────────────────
+
+current:
+  - name: Doyun Lee
+    role: Principal Investigator
+    title: Senior Research Fellow
+    affiliation: Center for Cognition and Sociality, IBS
+    education:
+      - "PhD in Physiology, Seoul National University (2007)"
+    photo: picture_lee.jpg
+    email: leedoyun@ibs.re.kr
+    research_interests: "Social cognition, neural population coding, in vivo electrophysiology"
+
+  - name: Jongrok Do
+    role: Postdoctoral Researcher
+    photo: Jongrok_Do.jpeg
+    education:
+      - "PhD, KAIST (2024)"
+    joined: 2019
+    research_interests: "Social recognition, neural circuits"
+
+  - name: Subeen Park
+    role: Graduate Student (Master)
+    photo: ""
+    education:
+      - "BS in Biochemistry, Chungnam National University (2024)"
+    joined: 2024
+    affiliation: "Biomedical Engineering, UNIST"
+    research_interests: ""
+
+  - name: Suyeon Choi
+    role: Student Researcher
+    photo: ""
+    education:
+      - "Undergraduate, Chungnam National University (Microbiology and Molecular Life Science)"
+    joined: 2024
+    research_interests: ""
+
+
+# ── Alumni ────────────────────────────────────────────────────────────────────
+
+alumni:
+  - name: Young-Beom Lee
+    role: Research Fellow
+    period: "2021 – 2025"
+    current_position: "Postdoc at KAIST"
+    photo: YoungBeom_Lee.png
+
+  - name: Soeun Park
+    role: Student Researcher
+    period: "2021 – 2025"
+    current_position: "Undergraduate, Chungnam National University"
+    photo: ""
+
+  - name: Joowon Kim
+    role: Graduate Student (MD/PhD)
+    period: "2019 – 2023"
+    current_position: "Assistant Professor, Chonnam National University"
+    photo: Joowon_Kim.jpg
+
+  - name: Eunji Kong
+    role: Postdoctoral Researcher
+    period: "2018 – 2022"
+    current_position: "Postdoc, Columbia University"
+    photo: Eunji_Kong_new.jpg
+
+  - name: Kyuhee Lee
+    role: Research Fellow
+    period: "2015 – 2020"
+    current_position: "PhD from Seoul National University (2013)"
+    photo: Kyuhee_Lee.jpg
+
+  - name: Jiyoung Byun
+    role: Student Researcher
+    period: "2018 – 2023"
+    current_position: ""
+    photo: ""

@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: doyunleelab/doyunleelab.github.io
+  branch: main
+  base_url: https://api.netlify.com
+
+media_folder: "assets/images/news"
+public_folder: "/assets/images/news"
+
+collections:
+  - name: "posts"
+    label: "News Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - label: "Category"
+        name: "categories"
+        widget: "select"
+        options: ["Lab Life", "Conference", "Publication", "Award"]
+        multiple: true
+      - { label: "Thumbnail Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

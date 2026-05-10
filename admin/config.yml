@@ -3,6 +3,7 @@ backend:
   repo: doyunleelab/doyunleelab.github.io
   branch: main
   base_url: https://api.netlify.com
+  site_domain: doyunleelab.netlify.app
 
 media_folder: "assets/images/news"
 public_folder: "/assets/images/news"

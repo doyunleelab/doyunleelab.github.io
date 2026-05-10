@@ -6,34 +6,61 @@ subtitle: The people behind the science
 
 <!-- ── Principal Investigator ─────────────────────────────────── -->
 <h3 class="mb-4">Principal Investigator</h3>
-<div class="row mb-5">
-  <div class="col-md-6 col-lg-4">
-    <div class="member-card">
-      <div class="member-photo-wrap">
-        {% assign pi = site.data.members.current[0] %}
+{% assign pi = site.data.members.current[0] %}
+<div class="row g-5 mb-5">
+  <div class="col-lg-4 text-center">
+    <div class="pi-card">
+      <div class="pi-photo mx-auto">
         {% if pi.photo and pi.photo != "" %}
         <img src="{{ '/assets/images/members/' | append: pi.photo | relative_url }}"
              alt="{{ pi.name }}"
              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-        <div class="member-photo-placeholder" style="display:none;"><i class="bi bi-person-fill"></i></div>
+        <div class="member-photo-placeholder" style="display:none; width:100%; height:100%;"><i class="bi bi-person-fill"></i></div>
         {% else %}
-        <div class="member-photo-placeholder"><i class="bi bi-person-fill"></i></div>
+        <div class="member-photo-placeholder" style="width:100%; height:100%;"><i class="bi bi-person-fill"></i></div>
         {% endif %}
       </div>
-      <div class="member-card-body">
-        <p class="member-name">{{ pi.name }}</p>
-        <p class="member-role">{{ pi.role }}</p>
-        <p class="member-info">{{ pi.title }}<br>{{ pi.affiliation }}</p>
-        {% for edu in pi.education %}
-        <p class="member-info small text-muted">{{ edu }}</p>
-        {% endfor %}
-        <div class="member-links">
-          <a href="mailto:{{ pi.email }}" title="Email"><i class="bi bi-envelope-fill"></i></a>
-        </div>
+      <p class="pi-name">{{ pi.name }}</p>
+      <p class="pi-title">{{ pi.role }}<br>{{ pi.title }}</p>
+      <p class="pi-bio">{{ pi.affiliation }}</p>
+      <div class="mt-3">
+        <a href="mailto:{{ pi.email }}" class="btn btn-light btn-sm">
+          <i class="bi bi-envelope me-1"></i>{{ pi.email }}
+        </a>
       </div>
     </div>
   </div>
+  <div class="col-lg-8">
+    <p>
+      Doyun Lee received her PhD in Physiology from Seoul National University in 2007.
+      She established the Doyun Lee Lab as an independent research group at the
+      <strong>Center for Cognition and Sociality, Institute for Basic Science (IBS)</strong>
+      in June 2015.
+    </p>
+    <p>
+      Her research focuses on understanding the neural mechanisms underlying
+      social cognition, with a particular emphasis on how the brain represents
+      and processes social identity information. The lab employs a combination
+      of advanced in vivo recording techniques, two-photon calcium imaging,
+      and carefully designed behavioral paradigms.
+    </p>
+    <p>Since 2020, she holds the position of Senior Research Fellow at IBS.</p>
+
+    <h5 class="mt-4 mb-2">Education</h5>
+    <ul>
+      <li>PhD in Physiology, Seoul National University (2007)</li>
+    </ul>
+
+    <h5 class="mt-4 mb-2">Research Interests</h5>
+    <ul>
+      <li>Neural mechanisms of social cognition and individual recognition</li>
+      <li>Social motivation and autism spectrum disorder</li>
+      <li>Large-scale neural population coding</li>
+      <li>In vivo electrophysiology and calcium imaging</li>
+    </ul>
+  </div>
 </div>
+<hr class="mb-5">
 
 <!-- ── Current Members ────────────────────────────────────────── -->
 <h3 class="mb-4">Current Members</h3>

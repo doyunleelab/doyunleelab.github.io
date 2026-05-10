@@ -23,8 +23,6 @@ plugins:
 
 # Navigation
 nav_links:
-  - title: About
-    url: /about/
   - title: Research
     url: /research/
   - title: Members

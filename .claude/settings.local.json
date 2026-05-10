@@ -9,7 +9,11 @@
       "Bash(mkdir -p \"/Users/leedoyun/doyunleelab Dropbox/LEE DOYUN/LabManagement/doyunleelab_website/.claude\")",
       "mcp__Claude_Preview__preview_start",
       "Bash(pkill -f \"jekyll serve\")",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

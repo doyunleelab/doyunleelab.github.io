@@ -134,11 +134,11 @@ title: Home
   </div>
 </section>
 
-<!-- ── Lab Affiliation ───────────────────────────────────────────── -->
+<!-- ── Our Lab ─────────────────────────────────────────────────── -->
 <section class="section">
   <div class="container">
-    <div class="row align-items-center g-5">
-      <div class="col-lg-6">
+    <div class="row mb-5">
+      <div class="col-lg-8">
         <h2 class="section-title">Our Lab</h2>
         <p class="mt-4 mb-3">
           We are an independent research group at the
@@ -152,27 +152,64 @@ title: Home
           imaging to probe the neural basis of social behavior.
         </p>
         <div class="d-flex flex-wrap gap-3">
-          <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">About the Lab</a>
-          <a href="{{ '/members/' | relative_url }}" class="btn btn-outline-primary">Meet the Team</a>
+          <a href="{{ '/members/' | relative_url }}" class="btn btn-primary">Meet the Team</a>
         </div>
       </div>
+    </div>
+
+    <!-- Lab History -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="research-card text-center">
+          <div class="research-icon mx-auto"><i class="bi bi-flag-fill"></i></div>
+          <h4>June 2015</h4>
+          <p>Laboratory established at the Center for Cognition and Sociality, IBS.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="research-card text-center">
+          <div class="research-icon mx-auto"><i class="bi bi-lightning-fill"></i></div>
+          <h4>May 2016</h4>
+          <p>First freely moving whole-cell recording achieved by team member Kyuhee Lee.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="research-card text-center">
+          <div class="research-icon mx-auto"><i class="bi bi-building-fill"></i></div>
+          <h4>October 2019</h4>
+          <p>Lab relocated to the new IBS headquarters building in Daejeon.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Affiliations & Techniques -->
+    <div class="row g-5">
       <div class="col-lg-6">
-        <div class="pi-card">
-          <div class="pi-photo">
-            <img src="{{ '/assets/images/members/picture_lee.jpg' | relative_url }}"
-                 alt="Doyun Lee"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-            <div class="member-photo-placeholder" style="display:none; width:100%; height:100%;">
-              <i class="bi bi-person-fill"></i>
+        <h4 class="mb-3">Affiliations</h4>
+        <ul class="list-unstyled">
+          <li class="mb-3 d-flex align-items-start gap-3">
+            <i class="bi bi-building text-primary fs-5 mt-1"></i>
+            <div>
+              <strong>Center for Cognition and Sociality</strong><br>
+              <span class="text-muted">Institute for Basic Science (IBS)</span>
             </div>
-          </div>
-          <p class="pi-name">Doyun Lee, PhD</p>
-          <p class="pi-title">Senior Research Fellow<br>Center for Cognition and Sociality, IBS</p>
-          <p class="pi-bio">
-            Dr. Lee received her PhD in Physiology from Seoul National University (2007)
-            and established the lab at IBS in 2015. Her work focuses on the neural
-            mechanisms of social recognition and social motivation.
-          </p>
+          </li>
+          <li class="mb-3 d-flex align-items-start gap-3">
+            <i class="bi bi-mortarboard text-primary fs-5 mt-1"></i>
+            <div>
+              <strong>Joint Graduate Programs</strong><br>
+              <span class="text-muted">KAIST, UNIST, GIST, Sungkyunkwan University</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h4 class="mb-3">Techniques</h4>
+        <div class="d-flex flex-wrap gap-2">
+          {% assign techniques = "Two-photon calcium imaging,Miniscope imaging,Neuropixels recordings,Freely moving whole-cell recording,Optogenetics,Pharmacogenetics,Animal surgery,MATLAB data analysis,Behavioral paradigms" | split: "," %}
+          {% for tech in techniques %}
+          <span class="badge bg-light text-primary border border-primary-subtle px-3 py-2">{{ tech }}</span>
+          {% endfor %}
         </div>
       </div>
     </div>

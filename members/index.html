@@ -34,7 +34,7 @@ subtitle: The people behind the science
     <p>
       Doyun Lee received his PhD in Physiology from Seoul National University in 2007.
       He established the Doyun Lee Lab as an independent research group at the
-      <strong>Center for Cognition and Sociality, Institute for Basic Science (IBS)</strong>
+      <strong>Center for Memory and Glioscience, Institute for Basic Science (IBS)</strong>
       in June 2015.
     </p>
     <p>
@@ -48,7 +48,9 @@ subtitle: The people behind the science
 
     <h5 class="mt-4 mb-2">Education</h5>
     <ul>
-      <li>PhD in Physiology, Seoul National University (2007)</li>
+      {% for edu in pi.education %}
+      <li>{{ edu }}</li>
+      {% endfor %}
     </ul>
 
     <h5 class="mt-4 mb-2">Research Interests</h5>
@@ -66,7 +68,7 @@ subtitle: The people behind the science
 <h3 class="mb-4">Current Members</h3>
 <div class="row g-4 mb-5">
   {% for member in site.data.members.current offset:1 %}
-  <div class="col-md-6 col-lg-3">
+  <div class="col-md-6 col-lg-4">
     <div class="member-card">
       <div class="member-photo-wrap">
         {% if member.photo and member.photo != "" %}
@@ -81,11 +83,23 @@ subtitle: The people behind the science
       <div class="member-card-body">
         <p class="member-name">{{ member.name }}</p>
         <p class="member-role">{{ member.role }}</p>
+        {% if member.positions %}
+        {% for pos in member.positions %}
+        <p class="member-info small">{{ pos }}</p>
+        {% endfor %}
+        {% endif %}
         {% for edu in member.education %}
         <p class="member-info small">{{ edu }}</p>
         {% endfor %}
         {% if member.affiliation %}
         <p class="member-info small text-muted">{{ member.affiliation }}</p>
+        {% endif %}
+        {% if member.email and member.email != "" %}
+        <p class="member-info small">
+          <a href="mailto:{{ member.email }}" class="text-muted">
+            <i class="bi bi-envelope me-1"></i>{{ member.email }}
+          </a>
+        </p>
         {% endif %}
       </div>
     </div>
@@ -95,27 +109,75 @@ subtitle: The people behind the science
 
 <!-- ── Alumni ─────────────────────────────────────────────────── -->
 <h3 class="mb-4">Alumni</h3>
-<div class="alumni-section">
+<div class="row g-4 mb-5">
+  {% for alum in site.data.members.alumni %}
+  <div class="col-md-6">
+    <div class="alumni-card">
+      <div class="alumni-photo-wrap">
+        {% if alum.photo and alum.photo != "" %}
+        <img src="{{ '/assets/images/members/' | append: alum.photo | relative_url }}"
+             alt="{{ alum.name }}"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="alumni-photo-placeholder" style="display:none;"><i class="bi bi-person-fill"></i></div>
+        {% else %}
+        <div class="alumni-photo-placeholder"><i class="bi bi-person-fill"></i></div>
+        {% endif %}
+      </div>
+      <div class="alumni-info">
+        <p class="alumni-name">{{ alum.name }}</p>
+        <p class="alumni-role">{{ alum.role }}{% if alum.period %} <span class="text-muted">· {{ alum.period }}</span>{% endif %}</p>
+        {% if alum.additional_roles %}
+        {% for ar in alum.additional_roles %}
+        <p class="alumni-role">{{ ar.title }}{% if ar.period %} <span class="text-muted">· {{ ar.period }}</span>{% endif %}</p>
+        {% endfor %}
+        {% endif %}
+        {% if alum.current_position and alum.current_position != "" %}
+        <p class="alumni-current"><strong>Currently:</strong> {{ alum.current_position }}</p>
+        {% endif %}
+        {% if alum.positions %}
+        <ul class="alumni-list">
+          {% for pos in alum.positions %}
+          <li>{{ pos }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if alum.education and alum.education != empty %}
+        <p class="alumni-section-label">Education</p>
+        <ul class="alumni-list">
+          {% for edu in alum.education %}
+          <li>{{ edu }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- ── Internship ─────────────────────────────────────────────── -->
+{% if site.data.members.internship %}
+<h3 class="mb-4">Internship</h3>
+<div class="alumni-section mb-5">
   <div class="table-responsive">
     <table class="table table-hover align-middle">
       <thead>
         <tr>
           <th>Name</th>
-          <th>Role</th>
+          <th>Affiliation</th>
           <th>Period</th>
-          <th>Current Position</th>
         </tr>
       </thead>
       <tbody>
-        {% for alum in site.data.members.alumni %}
+        {% for intern in site.data.members.internship %}
         <tr>
-          <td class="fw-semibold">{{ alum.name }}</td>
-          <td>{{ alum.role }}</td>
-          <td class="text-muted">{{ alum.period }}</td>
-          <td>{{ alum.current_position }}</td>
+          <td class="fw-semibold">{{ intern.name }}</td>
+          <td>{{ intern.affiliation }}</td>
+          <td class="text-muted">{{ intern.period }}</td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
   </div>
 </div>
+{% endif %}

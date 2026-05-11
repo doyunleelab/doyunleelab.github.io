@@ -4,9 +4,13 @@ current:
   - name: Doyun Lee
     role: Principal Investigator
     title: Senior Research Fellow
-    affiliation: Center for Cognition and Sociality, IBS
+    affiliation: Center for Memory and Glioscience, IBS
     education:
-      - "PhD in Physiology, Seoul National University (2007)"
+      - "Postdoc, Albert Lee lab, Janelia Research Campus / Howard Hughes Medical Institute (2008.11 – 2015.4)"
+      - "PhD, Department of Physiology, College of Medicine, Seoul National University (2007)"
+      - "MS, Department of Molecular Biology, Seoul National University (2000)"
+      - "BS, Department of Molecular Biology, Seoul National University (1998)"
+      - "Korea Science Academy 1기 (previously Busan Science High School)"
     photo: picture_lee.jpg
     email: leedoyun@ibs.re.kr
     research_interests: "Social cognition, neural population coding, in vivo electrophysiology"
@@ -15,63 +19,241 @@ current:
     role: Postdoctoral Researcher
     photo: Jongrok_Do.jpeg
     education:
-      - "PhD, KAIST (2024)"
+      - "PhD in Biological Sciences, KAIST (2024)"
+      - "MS in Psychology, Yonsei University (2016)"
+      - "BS in Industrial Engineering, Yonsei University (2014)"
+    positions:
+      - "Postdoc, Center for Memory and Glioscience, IBS (2024 – present)"
+      - "Student Researcher, IBS (2019 – 2024)"
+      - "Researcher, IBS (2016 – 2019)"
     joined: 2019
+    email: jongrokdo@ibs.re.kr
     research_interests: "Social recognition, neural circuits"
 
   - name: Subeen Park
     role: Graduate Student (Master)
-    photo: ""
+    photo: Subeen_Park.png
     education:
       - "BS in Biochemistry, Chungnam National University (2024)"
-    joined: 2024
-    affiliation: "Biomedical Engineering, UNIST"
+    positions:
+      - "Master student, Department of Biomedical Engineering, UNIST (2024 – present)"
+      - "Student Researcher, IBS (2021 – present)"
+    joined: 2021
+    email: clapb2n@unist.ac.kr
     research_interests: ""
 
-  - name: Suyeon Choi
-    role: Student Researcher
+  - name: Hyeyoon Lee
+    role: Researcher
+    photo: Hyeyoon_Lee.jpeg
+    education:
+      - "BS, Department of Life Science, Ewha Womans University"
+    email: yuna9335@ibs.re.kr
+    research_interests: ""
+
+  - name: Hein Lin Thant
+    role: Graduate Student
     photo: ""
     education:
-      - "Undergraduate, Chungnam National University (Microbiology and Molecular Life Science)"
-    joined: 2024
+      - "Graduate Student, Department of Bio and Brain Engineering, KAIST (Prof. Ain Chung's lab) (2026 – present)"
+    email: erisu.hein@kaist.ac.kr
+    research_interests: ""
+
+  - name: Chan Park
+    role: Student Researcher
+    photo: Chan_Park.jpg
+    education:
+      - "Undergrad, Department of Biochemistry, Chungnam National University"
+    email: chan021104@gmail.com
     research_interests: ""
 
 
 # ── Alumni ────────────────────────────────────────────────────────────────────
 
 alumni:
+  - name: Soeun Park
+    role: Researcher
+    period: "2025"
+    photo: Soeun_Park.png
+    education:
+      - "Undergrad, Department of Biological Science, Chungnam National University"
+    positions:
+      - "Researcher, Center for Cognition and Sociality, IBS (2025)"
+    current_position: ""
+    email: neuro.soeun.park@gmail.com
+
   - name: Young-Beom Lee
     role: Research Fellow
-    period: "2021 – 2025"
-    current_position: "Postdoc at KAIST"
+    period: "2018 – 2025"
     photo: YoungBeom_Lee.png
-
-  - name: Soeun Park
-    role: Student Researcher
-    period: "2021 – 2025"
-    current_position: "Undergraduate, Chungnam National University"
-    photo: ""
+    education:
+      - "MS, Department of Brain and Cognitive Engineering, Korea University (2011)"
+      - "BS, Department of Computer Science Education, Korea University (2009)"
+    positions:
+      - "Research Fellow, Center for Cognition and Sociality, IBS (2021 – 2025)"
+      - "Postdoc, Center for Cognition and Sociality, IBS (2018 – 2021)"
+      - "Postdoc, Department of Bio and Brain Engineering, KAIST (2017 – 2018)"
+    current_position: "Postdoc at KAIST"
+    email: yblee85@ibs.re.kr
 
   - name: Joowon Kim
-    role: Graduate Student (MD/PhD)
-    period: "2019 – 2023"
-    current_position: "Assistant Professor, Chonnam National University"
+    role: Graduate Student
+    period: "2018 – 2023"
     photo: Joowon_Kim.jpg
+    education:
+      - "PhD, Physician-Scientist Track, Graduate School of Medical Science and Engineering, KAIST (2018 – 2023; co-advisor, Dr. Min Whan Jung)"
+      - "MD, Department of Medicine, Seoul National University (2017)"
+    current_position: "Assistant Professor, Department of Anatomy, Chonnam National University"
+    email: joowonkim@jnu.ac.kr
 
   - name: Eunji Kong
     role: Postdoctoral Researcher
-    period: "2018 – 2022"
+    period: "2022.3 – 2022.10"
+    additional_roles:
+      - title: Graduate Student
+        period: "2016 – 2022"
+    photo: Eunji_Kong.jpg
+    education:
+      - "PhD, Graduate School of Medical Science and Engineering, KAIST (2016 – 2022)"
+      - "BS, Department of Biological Science, KAIST (2016)"
+    positions:
+      - "Postdoc, Center for Cognition and Sociality, IBS (2022.3 – 2022.10)"
     current_position: "Postdoc, Columbia University"
-    photo: Eunji_Kong_new.jpg
 
   - name: Kyuhee Lee
     role: Research Fellow
     period: "2015 – 2020"
-    current_position: "PhD from Seoul National University (2013)"
     photo: Kyuhee_Lee.jpg
-
-  - name: Jiyoung Byun
-    role: Student Researcher
-    period: "2018 – 2023"
+    education:
+      - "PhD, Department of Physiology, College of Medicine, Seoul National University (2013)"
+      - "BS, School of Biological Science, Seoul National University (2005)"
+    positions:
+      - "Research Fellow (2015 – 2020)"
+      - "Postdoc, Department of Physiology, College of Medicine, Seoul National University (2013 – 2015)"
     current_position: ""
-    photo: ""
+
+  - name: Han-Min Nam
+    role: Researcher
+    period: "2015 – 2018"
+    photo: Hanmin_Nam.jpg
+    education:
+      - "BS, Department of Biomedical Laboratory Science, Eulji University (2012)"
+    current_position: ""
+
+  - name: Minseok Jeong
+    role: Researcher
+    period: "2017"
+    photo: Minseok_Jeong.jpeg
+    education:
+      - "BS, School of Biosystems and Biomedical Sciences, Korea University (2017)"
+    current_position: ""
+
+# ── Internship ────────────────────────────────────────────────────────────────
+
+internship:
+  - name: Hyeyoon Lee
+    affiliation: "Department of Life Science, Ewha Womans University"
+    period: "2026 Winter"
+
+  - name: Somang Yang
+    affiliation: "Department of Medicine, Eulji University"
+    period: "2026 Winter"
+
+  - name: Suyeon Choi
+    affiliation: "Department of Microbiology and Molecular Life Science, Chungnam National University"
+    period: "2025"
+
+  - name: Sumin Lee
+    affiliation: "Department of Biological Science, Chungnam National University"
+    period: "2024 – 2025"
+
+  - name: Soeun Park
+    affiliation: "Department of Biological Science, Chungnam National University"
+    period: "2021 – 2025"
+
+  - name: Seoyeon Ko
+    affiliation: "Department of Integrative Biotechnology, Yonsei University"
+    period: "2025 Winter"
+
+  - name: Jiyoon Seo
+    affiliation: "School of Psychology, Korea University"
+    period: "2024 Summer"
+
+  - name: Hoyoung Myoung
+    affiliation: "Department of Medicine, Eulji University"
+    period: "2024 Winter"
+
+  - name: Seungryong Choo
+    affiliation: "Department of Microbiology and Molecular Life Science, Chungnam National University"
+    period: "2022 – 2023"
+
+  - name: Ji Hyeon Lee
+    affiliation: "Department of Microbiology and Molecular Life Science, Chungnam National University"
+    period: "2022 – 2023"
+
+  - name: Min-Kyung Suh
+    affiliation: "Department of Life Science, Korea University"
+    period: "2023 Summer"
+
+  - name: Hyejin Song
+    affiliation: "Department of Biological Science, Chungnam National University"
+    period: "2023 Summer"
+
+  - name: Haeun Yeo
+    affiliation: "Department of Biological Science, Handong University"
+    period: "2023 Summer"
+
+  - name: Han Park
+    affiliation: "Department of Biochemistry, Chungnam National University"
+    period: "2022 – 2023"
+
+  - name: Jiyoung Park
+    affiliation: "Department of Biochemistry, Chungnam National University"
+    period: "2022 – 2023"
+
+  - name: Wonjun Kim
+    affiliation: "Department of Microbiology and Molecular Life Science, Chungnam National University"
+    period: "2022"
+
+  - name: Seulki Kim
+    affiliation: "School of Life Sciences, Gyeongsang National University"
+    period: "2022 Summer"
+
+  - name: Yubin Lee
+    affiliation: "Department of Animal Biotechnology, Dankook University"
+    period: "2022 Summer"
+
+  - name: Jieun Lee
+    affiliation: "Department of Digital Content Engineering, Wonkwang University"
+    period: "2021 Summer"
+
+  - name: Hyungmi Kim
+    affiliation: "Department of Biomedical Engineering, Konyang University"
+    period: "2021 Summer"
+
+  - name: Da Eun Choi
+    affiliation: "School of Computing, KAIST"
+    period: "2019"
+
+  - name: Hyeonjeong Ha
+    affiliation: "School of Computing, KAIST"
+    period: "2018 – 2019"
+
+  - name: Jinwoo Kim
+    affiliation: "Department of Bio and Brain Engineering, KAIST"
+    period: "2017 – 2018"
+
+  - name: Min Seon Hwang
+    affiliation: "School of Computing, KAIST"
+    period: "2017 – 2019"
+
+  - name: Min Jung Jang
+    affiliation: "Department of Materials Science and Engineering, KAIST"
+    period: "2017"
+
+  - name: Yujin Choi
+    affiliation: "Department of Biological Sciences, KAIST"
+    period: "2017"
+
+  - name: Ji Young Byun
+    affiliation: "Department of Bio and Brain Engineering, KAIST"
+    period: "2016 – 2018"

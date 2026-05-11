@@ -291,6 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 .member-photo-wrap img {
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: center 15%;
 }
 
 .member-photo-placeholder {
@@ -662,6 +663,7 @@ h1, h2, h3, h4, h5, h6 {
 .alumni-photo-wrap img {
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: center 15%;
 }
 
 .alumni-photo-placeholder {

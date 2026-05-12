@@ -12,7 +12,7 @@ subtitle: Research articles from the Doyun Lee Lab
     <p class="pub-title">{{ pub.title }}</p>
     <p class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
     <p class="pub-journal">
-      {{ pub.journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %} ({{ year_group.year }})
+      {{ pub.journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}{% assign y = year_group.year | plus: 0 %}{% if y > 0 %} ({{ year_group.year }}){% endif %}
     </p>
     <div class="pub-badges">
       {% if pub.note and pub.note != "" %}

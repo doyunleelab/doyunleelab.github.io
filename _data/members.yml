@@ -19,12 +19,12 @@ current:
     role: Postdoctoral Researcher
     photo: Jongrok_Do.jpeg
     education:
-      - "PhD in Biological Sciences, KAIST"
-      - "MS in Psychology, Yonsei University"
-      - "BS in Industrial Engineering, Yonsei University"
+      - "PhD, Department of Biological Sciences, KAIST"
+      - "MS, Department of Psychology, Yonsei University"
+      - "BS, Department of Industrial Engineering, Yonsei University"
     positions:
       - "Postdoc, Center for Memory and Glioscience, IBS (2024 – present)"
-      - "Student Researcher, IBS (2019 – 2024)"
+      - "Student Researcher, IBS (2019 – 2024) (co-advisor, Dr. Min Whan Jung)"
       - "Researcher, IBS (2016 – 2019)"
     joined: 2019
     email: jongrokdo@ibs.re.kr
@@ -34,9 +34,9 @@ current:
     role: Student Researcher (IBS-UNIST Program)
     photo: Subeen_Park.png
     education:
-      - "BS in Biochemistry, Chungnam National University"
+      - "BS, Department of Biochemistry, Chungnam National University"
     positions:
-      - "Master student, Department of Biomedical Engineering, UNIST (2024 – present)"
+      - "Master Student, Department of Biomedical Engineering, UNIST (2024 – present) (co-advisor, Dr. Jung-Hoon Park)"
       - "Student Researcher, IBS (2021 – present)"
     joined: 2021
     email: clapb2n@unist.ac.kr
@@ -85,7 +85,7 @@ alumni:
 
   - name: Young-Beom Lee
     role: Research Fellow
-    period: "2018 – 2025"
+    period: "2018 – 2025 (co-advisor, Dr. Yee-joon Kim)"
     photo: YoungBeom_Lee.png
     education:
       - "PhD, Department of Bio and Brain Engineering, KAIST"
@@ -100,10 +100,10 @@ alumni:
 
   - name: Joowon Kim
     role: Graduate Student
-    period: "2018 – 2023"
+    period: "2018 – 2023 (co-advisor, Dr. Min Whan Jung)"
     photo: Joowon_Kim.jpg
     education:
-      - "PhD, Physician-Scientist Track, Graduate School of Medical Science and Engineering, KAIST (co-advisor, Dr. Min Whan Jung)"
+      - "PhD, Physician-Scientist Track, Graduate School of Medical Science and Engineering, KAIST"
       - "MD, Department of Medicine, Seoul National University"
     current_position: "Assistant Professor, Department of Anatomy, Chonnam National University"
     email: joowonkim@jnu.ac.kr
@@ -113,7 +113,7 @@ alumni:
     period: "2022.3 – 2022.10"
     additional_roles:
       - title: Graduate Student
-        period: "2016 – 2022"
+        period: "2016 – 2022 (co-advisor, Dr. Pilhan Kim)"
     photo: Eunji_Kong.jpg
     education:
       - "PhD, Graduate School of Medical Science and Engineering, KAIST"
@@ -205,7 +205,7 @@ internship:
     affiliation: "Department of Biological Science, Handong University"
     period: "2023 Summer"
 
-  - name: Han Park
+  - name: Chan Park
     affiliation: "Department of Biochemistry, Chungnam National University"
     period: "2022 – 2023"
 

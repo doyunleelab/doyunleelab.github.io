@@ -50,6 +50,9 @@
       pages: "2597"
       doi: "10.1038/s41467-023-38275-z"
       pdf: "Kong(NComm23).pdf"
+      press:
+        - label: "PNAS Nexus Journal Club"
+          url: "https://www.pnas.org/post/journal-club/mice-recognize-each-other-distinct-individuals-using-neurons-dorsal-hippocampus"
 
     - title: "Reward learning improves social signal processing in autism model mice"
       authors: "Kim J, Jung MW\\*, **Lee D**\\*"

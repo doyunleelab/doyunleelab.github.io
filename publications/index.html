@@ -30,6 +30,13 @@ subtitle: Research articles from the Doyun Lee Lab
         <i class="bi bi-link-45deg me-1"></i>DOI
       </a>
       {% endif %}
+      {% if pub.press %}
+      {% for item in pub.press %}
+      <a class="pub-badge" href="{{ item.url }}" target="_blank" style="background:#f0fdf4;color:#166534;border:1px solid #bbf7d0;">
+        <i class="bi bi-newspaper me-1"></i>{{ item.label }}
+      </a>
+      {% endfor %}
+      {% endif %}
     </div>
   </div>
   {% endfor %}

@@ -88,9 +88,12 @@ subtitle: The people behind the science
         <p class="member-info small">{{ pos }}</p>
         {% endfor %}
         {% endif %}
+        {% if member.education %}
+        <p class="alumni-section-label mt-2">Education</p>
         {% for edu in member.education %}
         <p class="member-info small">{{ edu }}</p>
         {% endfor %}
+        {% endif %}
         {% if member.affiliation %}
         <p class="member-info small text-muted">{{ member.affiliation }}</p>
         {% endif %}

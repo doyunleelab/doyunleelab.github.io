@@ -19,9 +19,9 @@ current:
     role: Postdoctoral Researcher
     photo: Jongrok_Do.jpeg
     education:
-      - "PhD in Biological Sciences, KAIST (2024)"
-      - "MS in Psychology, Yonsei University (2016)"
-      - "BS in Industrial Engineering, Yonsei University (2014)"
+      - "PhD in Biological Sciences, KAIST"
+      - "MS in Psychology, Yonsei University"
+      - "BS in Industrial Engineering, Yonsei University"
     positions:
       - "Postdoc, Center for Memory and Glioscience, IBS (2024 – present)"
       - "Student Researcher, IBS (2019 – 2024)"
@@ -34,7 +34,7 @@ current:
     role: Student Researcher (IBS-UNIST Program)
     photo: Subeen_Park.png
     education:
-      - "BS in Biochemistry, Chungnam National University (2024)"
+      - "BS in Biochemistry, Chungnam National University"
     positions:
       - "Master student, Department of Biomedical Engineering, UNIST (2024 – present)"
       - "Student Researcher, IBS (2021 – present)"
@@ -53,9 +53,10 @@ current:
   - name: Hein Lin Thant
     role: Student Researcher
     photo: ""
-    education:
-      - "BS, Department of Bio and Brain Engineering, KAIST (2026)"
+    positions:
       - "Graduate Student, Department of Bio and Brain Engineering, KAIST (Prof. Ain Chung's lab) (2026 – present)"
+    education:
+      - "BS, Department of Bio and Brain Engineering, KAIST"
     email: erisu.hein@kaist.ac.kr
     research_interests: ""
 
@@ -87,9 +88,9 @@ alumni:
     period: "2018 – 2025"
     photo: YoungBeom_Lee.png
     education:
-      - "PhD, Department of Bio and Brain Engineering, KAIST (2017)"
-      - "MS, Department of Brain and Cognitive Engineering, Korea University (2011)"
-      - "BS, Department of Computer Science Education, Korea University (2009)"
+      - "PhD, Department of Bio and Brain Engineering, KAIST"
+      - "MS, Department of Brain and Cognitive Engineering, Korea University"
+      - "BS, Department of Computer Science Education, Korea University"
     positions:
       - "Research Fellow, Center for Cognition and Sociality, IBS (2021 – 2025)"
       - "Postdoc, Center for Cognition and Sociality, IBS (2018 – 2021)"
@@ -102,8 +103,8 @@ alumni:
     period: "2018 – 2023"
     photo: Joowon_Kim.jpg
     education:
-      - "PhD, Physician-Scientist Track, Graduate School of Medical Science and Engineering, KAIST (2018 – 2023; co-advisor, Dr. Min Whan Jung)"
-      - "MD, Department of Medicine, Seoul National University (2017)"
+      - "PhD, Physician-Scientist Track, Graduate School of Medical Science and Engineering, KAIST (co-advisor, Dr. Min Whan Jung)"
+      - "MD, Department of Medicine, Seoul National University"
     current_position: "Assistant Professor, Department of Anatomy, Chonnam National University"
     email: joowonkim@jnu.ac.kr
 
@@ -115,8 +116,8 @@ alumni:
         period: "2016 – 2022"
     photo: Eunji_Kong.jpg
     education:
-      - "PhD, Graduate School of Medical Science and Engineering, KAIST (2016 – 2022)"
-      - "BS, Department of Biological Science, KAIST (2016)"
+      - "PhD, Graduate School of Medical Science and Engineering, KAIST"
+      - "BS, Department of Biological Science, KAIST"
     positions:
       - "Postdoc, Center for Cognition and Sociality, IBS (2022.3 – 2022.10)"
     current_position: "Postdoc, Columbia University"
@@ -126,8 +127,8 @@ alumni:
     period: "2015 – 2020"
     photo: Kyuhee_Lee.jpg
     education:
-      - "PhD, Department of Physiology, College of Medicine, Seoul National University (2013)"
-      - "BS, School of Biological Science, Seoul National University (2005)"
+      - "PhD, Department of Physiology, College of Medicine, Seoul National University"
+      - "BS, School of Biological Science, Seoul National University"
     positions:
       - "Research Fellow (2015 – 2020)"
       - "Postdoc, Department of Physiology, College of Medicine, Seoul National University (2013 – 2015)"
@@ -138,7 +139,7 @@ alumni:
     period: "2015 – 2018"
     photo: Hanmin_Nam.jpg
     education:
-      - "BS, Department of Biomedical Laboratory Science, Eulji University (2012)"
+      - "BS, Department of Biomedical Laboratory Science, Eulji University"
     current_position: ""
 
   - name: Minseok Jeong
@@ -146,7 +147,7 @@ alumni:
     period: "2017"
     photo: Minseok_Jeong.jpeg
     education:
-      - "BS, School of Biosystems and Biomedical Sciences, Korea University (2017)"
+      - "BS, School of Biosystems and Biomedical Sciences, Korea University"
     current_position: ""
 
 # ── Internship ────────────────────────────────────────────────────────────────

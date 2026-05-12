@@ -131,7 +131,7 @@
       doi: "10.1523/JNEUROSCI.4208-14.2015"
       pdf: ""
 
-- year: 2014
+- year: "Before IBS"
   entries:
     - title: "Anesthetized- and awake-patched whole-cell recordings in freely moving rats using UV-cured collar-based electrode stabilization"
       authors: "**Lee D**\\*, Shtengel G, Osborne JE, Lee AK\\*"
@@ -141,8 +141,6 @@
       doi: "10.1038/nprot.2014.190"
       pdf: ""
 
-- year: 2012
-  entries:
     - title: "Hippocampal Place Fields Emerge upon Single-Cell Manipulation of Excitability During Behavior"
       authors: "**Lee D**\\*, Lin B, Lee AK\\*"
       journal: "Science"
@@ -152,34 +150,6 @@
       pdf: ""
       note: "Recommended 3× as \"Exceptional\" by Faculty of 1000; Featured in Science Illustrated"
 
-    - title: "GABA mediates the network activity-dependent facilitation of axonal outgrowth from the newborn granule cells in the early postnatal rat hippocampus"
-      authors: "Lee H, **Lee D**, Park CH, Ho WK, Lee SH"
-      journal: "European Journal of Neuroscience"
-      volume: "36(6)"
-      pages: "2743–2752"
-      doi: "10.1111/j.1460-9568.2012.08198.x"
-      pdf: ""
-
-    - title: "KIF21A-mediated axonal transport and selective endocytosis underlie the polarized targeting of NCKX2"
-      authors: "Lee KH, Lee JS, **Lee D**, Seog DH, Lytton J, Ho WK, Lee SH"
-      journal: "Journal of Neuroscience"
-      volume: "32(12)"
-      pages: "4102–4117"
-      doi: "10.1523/JNEUROSCI.6331-11.2012"
-      pdf: ""
-
-- year: 2011
-  entries:
-    - title: "Cyclic ADP ribose-dependent Ca²⁺ release by group I metabotropic glutamate receptors in acutely dissociated rat hippocampal neurons"
-      authors: "Sohn JW, Yu WJ, **Lee D**, Shin HS, Lee SH, Ho WK"
-      journal: "PLoS ONE"
-      volume: "6(10)"
-      pages: "e26625"
-      doi: "10.1371/journal.pone.0026625"
-      pdf: ""
-
-- year: 2007
-  entries:
     - title: "Target cell-specific involvement of presynaptic mitochondria in post-tetanic potentiation at hippocampal mossy fiber synapses"
       authors: "**Lee D**, Lee KH, Ho WK, Lee SH"
       journal: "Journal of Neuroscience"
@@ -188,55 +158,3 @@
       doi: "10.1523/JNEUROSCI.3985-07.2007"
       pdf: ""
       note: "Highlighted in \"This Week in The Journal\""
-
-    - title: "Receptor-specific inhibition of GABA_B-activated K⁺ currents by muscarinic and metabotropic glutamate receptors in immature rat hippocampus"
-      authors: "Sohn JW, **Lee D**, Cho H, Shin HS, Lim W, Lee SH, Ho WK"
-      journal: "Journal of Physiology"
-      volume: "580(2)"
-      pages: "411–422"
-      doi: "10.1113/jphysiol.2006.123752"
-      pdf: ""
-
-    - title: "Na⁺/Ca²⁺ exchange and Ca²⁺ homeostasis in axon terminals of mammalian central neurons"
-      authors: "Lee SH, Kim MH, Lee JY, Lee SH, **Lee D**, Park KH, Ho WK"
-      journal: "Annals of the New York Academy of Sciences"
-      volume: "1099"
-      pages: "396–412"
-      doi: "10.1196/annals.1387.015"
-      pdf: ""
-
-- year: 2005
-  entries:
-    - title: "Low mobility of phosphatidylinositol 4,5-bisphosphate underlies receptor specificity of Gq-mediated ion channel regulation in atrial myocytes"
-      authors: "Cho H, Kim YA, Yoon JY, **Lee D**, Kim JH, Lee SH, Ho WK"
-      journal: "PNAS"
-      volume: "102(42)"
-      pages: "15241–15246"
-      doi: "10.1073/pnas.0503831102"
-      pdf: ""
-
-    - title: "Receptor-induced depletion of phosphatidylinositol 4,5-bisphosphate inhibits inwardly rectifying K⁺ channels in a receptor-specific manner"
-      authors: "Cho H, **Lee D**, Lee SH, Ho WK"
-      journal: "PNAS"
-      volume: "102(12)"
-      pages: "4643–4648"
-      doi: "10.1073/pnas.0408844102"
-      pdf: ""
-
-    - title: "Acetylcholine Induces Hyperpolarization Mediated by Activation of K(Ca) Channels in Cultured Chick Myoblasts"
-      authors: "**Lee D**, Han J, Park JY"
-      journal: "Korean Journal of Physiology and Pharmacology"
-      volume: "9(1)"
-      pages: "37–44"
-      doi: ""
-      pdf: ""
-
-- year: 2002
-  entries:
-    - title: "Hyperpolarization, but not depolarization, increases intracellular Ca²⁺ level in cultured chick myoblasts"
-      authors: "Park JY, **Lee D**, Maeng JU, Koh DS, Kim K"
-      journal: "Biochemical and Biophysical Research Communications"
-      volume: "290(4)"
-      pages: "1176–1182"
-      doi: "10.1006/bbrc.2002.6349"
-      pdf: ""

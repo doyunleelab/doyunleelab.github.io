@@ -1,11 +1,11 @@
 # Publications — Doyun Lee Lab (updated from CV, April 2026)
 # * = corresponding author  † or # = co-first author
-# **Lee D** renders as bold on the website via markdownify
+# Lee D renders as bold on the website via markdownify
 
 - year: 2026
   entries:
     - title: "Hierarchical summary statistics encoding across primary visual and posterior parietal cortices"
-      authors: "Lee Y-B, Jung G, James O, **Lee D**\\*, Kim Y\\*"
+      authors: "Lee Y-B, Jung G, James O, Lee D\\*, Kim Y\\*"
       journal: "Advanced Science"
       volume: "e12369"
       pages: ""
@@ -15,7 +15,7 @@
 - year: 2025
   entries:
     - title: "Hippocampal-cortical interactions in the consolidation of social memory"
-      authors: "Park G, Kim MS, Lee Y-B, Shin S, Kim SJ, **Lee D**\\*, Lee Y-S\\*"
+      authors: "Park G, Kim MS, Lee Y-B, Shin S, Kim SJ, Lee D\\*, Lee Y-S\\*"
       journal: "Nature Communications"
       volume: "16"
       pages: "8430"
@@ -23,7 +23,7 @@
       pdf: "Park(NatComm25).pdf"
 
     - title: "Head-Anchored Patch-Clamp Recordings in Freely Moving Animals"
-      authors: "Lee AK, Epsztein J, **Lee D**, Brecht M"
+      authors: "Lee AK, Epsztein J, Lee D, Brecht M"
       journal: "The Handbook of Electrophysiology: A Practical Guide for Neurophysiologists"
       volume: ""
       pages: ""
@@ -34,7 +34,7 @@
 - year: 2024
   entries:
     - title: "Long-lasting Forms of Plasticity through Patterned Ultrasound-induced Brainwave Entrainment"
-      authors: "Kim H-J†, Phan TT†, Lee K, Kim JS, Lee S-Y, Lee JM, Do J, **Lee D**, Kim S-P, Lee KP, Park J, Lee CJ, Park JM"
+      authors: "Kim H-J†, Phan TT†, Lee K, Kim JS, Lee S-Y, Lee JM, Do J, Lee D, Kim S-P, Lee KP, Park J, Lee CJ, Park JM"
       journal: "Science Advances"
       volume: "10(8)"
       pages: "eadk3198"
@@ -44,7 +44,7 @@
 - year: 2023
   entries:
     - title: "Dynamic and stable hippocampal representations of social identity and reward expectation support associative social memory in male mice"
-      authors: "Kong E#, Lee K#, Do J, Kim P\\*, **Lee D**\\*"
+      authors: "Kong E#, Lee K#, Do J, Kim P\\*, Lee D\\*"
       journal: "Nature Communications"
       volume: "14(1)"
       pages: "2597"
@@ -55,7 +55,7 @@
           url: "https://www.pnas.org/post/journal-club/mice-recognize-each-other-distinct-individuals-using-neurons-dorsal-hippocampus"
 
     - title: "Reward learning improves social signal processing in autism model mice"
-      authors: "Kim J, Jung MW\\*, **Lee D**\\*"
+      authors: "Kim J, Jung MW\\*, Lee D\\*"
       journal: "Cell Reports"
       volume: "42"
       pages: "113228"
@@ -63,15 +63,15 @@
       pdf: "Kim(CellRep23).pdf"
 
     - title: "Automating licking bias correction in a two-choice delayed match-to-sample task to accelerate learning"
-      authors: "Do J, Jung MW\\*, **Lee D**\\*"
+      authors: "Do J, Jung MW\\*, Lee D\\*"
       journal: "Scientific Reports"
       volume: "13(1)"
       pages: "22768"
-      doi: "10.1038/s41598-023-49680-3"
+      doi: "10.1038/s41598-023-49862-z"
       pdf: "Do(SciRep23).pdf"
 
     - title: "A quantitative analysis of spontaneous alternation behaviors on a Y-maze reveals adverse effects of acute social isolation on spatial working memory"
-      authors: "Kim J, Kang H, Lee Y-B, Lee B, **Lee D**\\*"
+      authors: "Kim J, Kang H, Lee Y-B, Lee B, Lee D\\*"
       journal: "Scientific Reports"
       volume: "13(1)"
       pages: "14722"
@@ -81,7 +81,7 @@
 - year: 2020
   entries:
     - title: "Transient effect of mossy fiber stimulation on spatial firing of CA3 neurons in familiar and novel environments"
-      authors: "Lee J, Bae C, **Lee D**\\*, Jung MW\\*"
+      authors: "Lee J, Bae C, Lee D\\*, Jung MW\\*"
       journal: "Hippocampus"
       volume: "30(7)"
       pages: "693–702"
@@ -91,7 +91,7 @@
 - year: 2019
   entries:
     - title: "Transient effect of mossy fiber stimulation on spatial firing of CA3 neurons"
-      authors: "Lee J, Yun M, Cho E, Lee JW, **Lee D**\\*, Jung MW\\*"
+      authors: "Lee J, Yun M, Cho E, Lee JW, Lee D\\*, Jung MW\\*"
       journal: "Hippocampus"
       volume: "29(7)"
       pages: "639–651"
@@ -101,7 +101,7 @@
 - year: 2017
   entries:
     - title: "Whole-cell recording in the awake brain"
-      authors: "**Lee D**\\*, Lee AK\\*"
+      authors: "Lee D\\*, Lee AK\\*"
       journal: "Cold Spring Harbor Protocols"
       volume: ""
       pages: ""
@@ -109,7 +109,7 @@
       pdf: "Lee(CSHP17a).pdf"
 
     - title: "In vivo patch-clamp recording in awake head-fixed rodents"
-      authors: "**Lee D**\\*, Lee AK\\*"
+      authors: "Lee D\\*, Lee AK\\*"
       journal: "Cold Spring Harbor Protocols"
       volume: ""
       pages: ""
@@ -117,7 +117,7 @@
       pdf: "Lee(CSHP17b).pdf"
 
     - title: "Efficient method for whole-cell recording in freely moving rodents using UV-cured collar-based pipette stabilization"
-      authors: "**Lee D**\\*, Lee AK\\*"
+      authors: "Lee D\\*, Lee AK\\*"
       journal: "Cold Spring Harbor Protocols"
       volume: ""
       pages: ""
@@ -127,7 +127,7 @@
 - year: "Selected Publications Before IBS"
   entries:
     - title: "Anesthetized- and awake-patched whole-cell recordings in freely moving rats using UV-cured collar-based electrode stabilization"
-      authors: "**Lee D**\\*, Shtengel G, Osborne JE, Lee AK\\*"
+      authors: "Lee D\\*, Shtengel G, Osborne JE, Lee AK\\*"
       journal: "Nature Protocols"
       volume: "9"
       pages: "2784–2795"
@@ -135,7 +135,7 @@
       pdf: ""
 
     - title: "Hippocampal Place Fields Emerge upon Single-Cell Manipulation of Excitability During Behavior"
-      authors: "**Lee D**\\*, Lin B, Lee AK\\*"
+      authors: "Lee D\\*, Lin B, Lee AK\\*"
       journal: "Science"
       volume: "337(6096)"
       pages: "849–853"
@@ -147,7 +147,7 @@
           url: "https://scienceillustrated.com.au/blog/science/where-do-place-fields-originate/"
 
     - title: "Target cell-specific involvement of presynaptic mitochondria in post-tetanic potentiation at hippocampal mossy fiber synapses"
-      authors: "**Lee D**, Lee KH, Ho WK, Lee SH"
+      authors: "Lee D, Lee KH, Ho WK, Lee SH"
       journal: "Journal of Neuroscience"
       volume: "27(50)"
       pages: "13603–13613"

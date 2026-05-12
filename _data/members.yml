@@ -31,7 +31,7 @@ current:
     research_interests: "Social recognition, neural circuits"
 
   - name: Subeen Park
-    role: Graduate Student (Master)
+    role: Student Researcher (IBS-UNIST Program)
     photo: Subeen_Park.png
     education:
       - "BS in Biochemistry, Chungnam National University (2024)"
@@ -51,9 +51,10 @@ current:
     research_interests: ""
 
   - name: Hein Lin Thant
-    role: Graduate Student
+    role: Student Researcher
     photo: ""
     education:
+      - "BS, Department of Bio and Brain Engineering, KAIST (2026)"
       - "Graduate Student, Department of Bio and Brain Engineering, KAIST (Prof. Ain Chung's lab) (2026 – present)"
     email: erisu.hein@kaist.ac.kr
     research_interests: ""
@@ -75,7 +76,7 @@ alumni:
     period: "2025"
     photo: Soeun_Park.png
     education:
-      - "Undergrad, Department of Biological Science, Chungnam National University"
+      - "BS, Department of Biological Science, Chungnam National University"
     positions:
       - "Researcher, Center for Cognition and Sociality, IBS (2025)"
     current_position: ""

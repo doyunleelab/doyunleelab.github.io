@@ -9,8 +9,8 @@
       journal: "Advanced Science"
       volume: "e12369"
       pages: ""
-      doi: ""
-      pdf: ""
+      doi: "10.1002/advs.202512369"
+      pdf: "Lee(AdvSci26).pdf"
 
 - year: 2025
   entries:
@@ -48,7 +48,7 @@
       journal: "Nature Communications"
       volume: "14(1)"
       pages: "2597"
-      doi: "10.1038/s41467-023-38275-z"
+      doi: "10.1038/s41467-023-38338-3"
       pdf: "Kong(NComm23).pdf"
       press:
         - label: "PNAS Nexus Journal Club"
@@ -75,7 +75,7 @@
       journal: "Scientific Reports"
       volume: "13(1)"
       pages: "14722"
-      doi: "10.1038/s41598-023-41900-0"
+      doi: "10.1038/s41598-023-41996-4"
       pdf: "Kim(SciRep23).pdf"
 
 - year: 2020
@@ -85,7 +85,7 @@
       journal: "Hippocampus"
       volume: "30(7)"
       pages: "693–702"
-      doi: "10.1002/hipo.23185"
+      doi: "10.1002/hipo.23190"
       pdf: "Lee(Hippocampus20).pdf"
 
 - year: 2019
@@ -95,7 +95,7 @@
       journal: "Hippocampus"
       volume: "29(7)"
       pages: "639–651"
-      doi: "10.1002/hipo.23054"
+      doi: "10.1002/hipo.23066"
       pdf: "Lee(Hippocampus19).pdf"
 
 - year: 2017
@@ -124,16 +124,6 @@
       doi: "10.1101/pdb.prot095810"
       pdf: "Lee(CSHP17c).pdf"
 
-- year: 2015
-  entries:
-    - title: "Co-stimulation of AMPA and Metabotropic Glutamate Receptors Underlies PLC Activation by Glutamate in Hippocampus"
-      authors: "Kim HH, Lee KH, **Lee D**, Han YE, Lee SH, Sohn JW, Ho WK"
-      journal: "Journal of Neuroscience"
-      volume: "35"
-      pages: "6401–6412"
-      doi: "10.1523/JNEUROSCI.4208-14.2015"
-      pdf: ""
-
 - year: "Selected Publications Before IBS"
   entries:
     - title: "Anesthetized- and awake-patched whole-cell recordings in freely moving rats using UV-cured collar-based electrode stabilization"
@@ -151,7 +141,10 @@
       pages: "849–853"
       doi: "10.1126/science.1221489"
       pdf: ""
-      note: "Recommended 3× as \"Exceptional\" by Faculty of 1000; Featured in Science Illustrated"
+      note: "Recommended 3× as \"Exceptional\" by Faculty of 1000"
+      press:
+        - label: "Science Illustrated"
+          url: "https://scienceillustrated.com.au/blog/science/where-do-place-fields-originate/"
 
     - title: "Target cell-specific involvement of presynaptic mitochondria in post-tetanic potentiation at hippocampal mossy fiber synapses"
       authors: "**Lee D**, Lee KH, Ho WK, Lee SH"
@@ -161,3 +154,6 @@
       doi: "10.1523/JNEUROSCI.3985-07.2007"
       pdf: ""
       note: "Highlighted in \"This Week in The Journal\""
+      press:
+        - label: "This Week in The Journal"
+          url: "https://www.jneurosci.org/content/27/50/i"

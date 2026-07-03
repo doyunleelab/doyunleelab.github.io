@@ -8,9 +8,9 @@ author: Doyun Lee Lab
 
 We are excited to announce a new publication from our lab in **Nature Communications**!
 
-This work by Soeun Park and colleagues investigates [fill in brief description of the paper].
+This work by Gaeun Park and colleagues discovers that prefrontal neurons projecting to the nucleus accumbens encode generalized social familiarity of known conspecifics, with hippocampal inputs supporting this process.
 Please see the full paper for details.
 
-> Park S et al. (2025). *[Title]*. **Nature Communications**.
+> Park G et al. (2025). *Hippocampal-cortical interactions in the consolidation of social memory*. **Nature Communications**.
 
 Congratulations to all contributors!
